@@ -39,7 +39,11 @@ Create ssh keys in the mini_project directory
 ```
 terraform init
 ```
+run terraform plan to save the state
+```
 terraform plan -out outfile
+```
+Apply the changes to AWS
 ```
 terraform apply outfile
 ```
