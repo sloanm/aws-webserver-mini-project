@@ -3,4 +3,5 @@ terraform.tfvars.orig
 securitygroup.tf.backup
 vpc.tf.backup
 test-dir/ 
-
+sshkey
+sshkey.pub
