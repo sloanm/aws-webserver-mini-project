@@ -1,6 +1,6 @@
 # Mini Project 
 
-Utilizing Terraform infrastructure ias code
+Utilizing Terraform infrastructure as code
 to provision new AWS resources and configure a web server.
 
 ## Getting Started
@@ -9,7 +9,8 @@ These instructions will outline how to provision an AWS EC2 instance running a w
 
 ### Resulting Environment
 
-The provisioned server will have the following:
+The provisioned server will have the following:  
+
 NGINX
 Chef-solo
   Chef-solo will be installed to enable any customer cookbooks to be run.  The assumption here is that many Stelligent customers will not allow unfettered access the their network and servers.  If the customer uses Chef then their cookbooks could be used to provision servers to the customer specifications.
