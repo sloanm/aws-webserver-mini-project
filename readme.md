@@ -13,8 +13,8 @@ The provisioned server will have the following:
 
 NGINX
 Chef-solo
-  Chef-solo will be installed to enable any customer cookbooks to be run.  The assumption here is that many Stelligent customers will not allow unfettered access the their network and servers.  If the customer uses Chef then their cookbooks could be used to provision servers to the customer specifications.
-  Git will be installed
+  Chef-solo will be installed to enable any customer cookbooks to be run.  The assumption here is that many Stelligent       customers will not allow unfettered access the their network and servers.  If the customer uses Chef then their cookbooks could be used to provision servers to the customer specifications.
+Git will be installed
   The script script.sh will be executed as part of the provisioning.  This will install nginx and use sed to modify the default nginx webpage to dislplay the requested words: “Automation for the People”  
   A second script script1.sh will be executed that will install various software including chefdk and chef-solo
 
