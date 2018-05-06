@@ -30,7 +30,7 @@ git clone https://github.com/sloanm/aws-webserver-mini-project.git
 Should you wish to ssh into the webserver after provisioning create ssh keys.
 Create ssh keys in the mini_project directory 
 ```
-#ssh-keygen -f sshkeys
+#ssh-keygen -f sshkey
 ```
 
 
@@ -51,6 +51,6 @@ terraform apply outfile
 Obtain the public IP address and paste into a browser to view the desired index.html page
 
 ```
-until finished
+
 ```
 copy the public ip address from AWS into your browser to view the index.html page
