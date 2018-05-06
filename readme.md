@@ -21,28 +21,32 @@ Git will be installed
 ### Prerequisites
 
 Terraform installed on a local machine and an AWS account for deployment
-```
-Clone the repo from GitHub.
-```
-Should you wish to ssh into the webserver after provisioning create ssh keys.
-Create ssh keys in the mini_project directory  
-#ssh-keygen -f sshkeys
 
+Clone the git repo
+```
+git clone https://github.com/sloanm/aws-webserver-mini-project.git
+```
+
+Should you wish to ssh into the webserver after provisioning create ssh keys.
+Create ssh keys in the mini_project directory 
+```
+#ssh-keygen -f sshkeys
+```
 
 
 ### Installing
 
-
+```
 terraform init
 ```
 terraform plan -out outfile
 ```
 terraform apply outfile
 ```
+
 Obtain the public IP address and paste into a browser to view the desired index.html page
 
 ```
 until finished
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
+copy the public ip address from AWS into your browser to view the index.html page
