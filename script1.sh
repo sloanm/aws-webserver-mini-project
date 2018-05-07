@@ -6,7 +6,7 @@ apt-get install -y wget
 apt-get install -y git
 apt-get install -y less
 apt-get install -y vim
-apt install ntp
+apt-get install -y ntp
 
 cd ~
 curl -L https://www.opscode.com/chef/install.sh | bash
@@ -43,6 +43,5 @@ rm apt-7.0.0.tar.gz
 
 cd  /root/chef-solo/cookbooks/nginx
 cd ~/chef-solo
-cp -R apt/ cookbooks/
 
-chef-solo -c solo.rb -j web.json
+#chef-solo -c solo.rb -j web.json
